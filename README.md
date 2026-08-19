@@ -72,7 +72,19 @@ Söz konusu USB belleğin barındırdığı verilerin sızdırılması durumunda
 
 ## 💡 Tavsiyeler ve Önleyici Tedbirler (Remediation & Countermeasures)
 
-1. **USB ve Medya Güvenliği Politikası (GPO):** Kurumsal cihazlarda yetkisiz USB bellek kullanımını engellemek için Grup İlkesi (GPO) üzerinden depolama birimleri kısıtlanmalıdır.
-2. **Veri Sınıflandırılması ve Şifreleme:** Kurumsal veriler ile kişisel veriler kesinlikle ayrıştırılmalı; taşınabilir depolama cihazları donanımsal veya yazılımsal olarak (örn. BitLocker) şifrelenmelidir.
-3. **Farkındalık Eğitimleri:** Çalışanlara sokakta veya otoparkta bulunan USB belleklerin doğrudan bilgisayarlara takılmaması, derhal Güvenlik/SOC ekibine teslim edilmesi gerektiği konusunda eğitimler verilmelidir.
-4. **İzole Analiz (Sandbox) Standardı:** Bulunan tüm harici medya araçları yalnızca izole edilmiş sanal ortamlarda veya dedicated adli inceleme istasyonlarında analize tabi tutulmalıdır.
+1. **Kurumsal ve Kişisel Verilerin Kesin Olarak Ayrıştırılması:**
+   * Çalışanların kişisel dosyalarını (aile fotoğrafları, özel tatil planları, kişisel belgeler vb.) kurumsal depolama alanlarında veya iş için kullanılan harici medyada saklaması strict (katı) politikalarla yasaklanmalıdır[cite: 1].
+   * Bu durum hem veri sızıntısı anında kişisel verilerin (PII) tehlikeye girmesini hem de olası bir adli incelemede (Forensics) özel hayatın gizliliğinin ihlal edilmesini engeller[cite: 1].
+
+2. **USB ve Medya Güvenliği Politikası (GPO):**
+   * Kurumsal cihazlarda yetkisiz USB bellek kullanımını engellemek için Grup İlkesi (GPO) üzerinden harici depolama birimleri kısıtlanmalı veya salt okunur (read-only) hale getirilmelidir.
+
+3. **Veri Sınıflandırılması ve Şifreleme:**
+   * Kurumsal veriler hassasiyet derecesine göre sınıflandırılmalı; taşınabilir depolama cihazlarının kullanımı zorunlu ise veriler donanımsal veya yazılımsal çözümlerle (örn. BitLocker To Go) uçtan uca şifrelenmelidir[cite: 1].
+
+4. **Siber Güvenlik Farkındalık Eğitimleri (Social Engineering & USB Drop):**
+   * Çalışanlara sokakta, otoparkta veya bina çevresinde bulunan USB belleklerin merak edilerek bilgisayarlara takılmaması gerektiği, bunun bir **"USB Drop Attack"** yöntemi olabileceği öğretilmelidir[cite: 1].
+   * Bulunan tüm harici medyaların derhal Güvenlik / SOC ekibine teslim edilmesine yönelik standart operasyon prosedürleri (SOP) oluşturulmalıdır[cite: 1].
+
+5. **İzole Analiz (Sandbox) Standardı:**
+   * Şüpheli veya kaynağı belirsiz tüm harici medya araçları yalnızca ağdan tamamen izole edilmiş sanal ortamlarda (Sandbox/VM) veya dedicated (özel) adli inceleme istasyonlarında analize tabi tutulmalıdır[cite: 1].
