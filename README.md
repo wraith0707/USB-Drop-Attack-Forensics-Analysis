@@ -19,9 +19,7 @@ Yapılan analizler sonucunda cihazın **İnsan Kaynakları Müdürü Jorge Baile
 
 Cihaz içeriğinde tespit edilen dosya ve klasör yapısı aşağıda detaylandırılmıştır:
 
-<p align="center">
-  <img src="Jorge%20Bailey%20USB%20.png" width="850" alt="Jorge Bailey USB Drive">
-</p>
+![Jorge Bailey USB Drive](Jorge%20Bailey%20USB%20.png)
 
 ### 📂 Dosya ve İçerik Sınıflandırması
 
