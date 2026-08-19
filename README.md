@@ -4,6 +4,9 @@
 ![Environment](https://img.shields.io/badge/Environment-Isolated_Sandbox_VM-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
+> [!NOTE]
+> **Yasal Uyarı / Disclaimer:** Bu proje, siber güvenlik farkındalığı ve adli inceleme pratikleri geliştirmek amacıyla hazırlanmış **kurgusal bir senaryodan (Lab Scenario)** ibarettir. Raporda yer alan kişi, kurum, görsel ve belgeler tamamen simülasyon amaçlıdır; gerçek kişi veya kurumlarla bir ilgisi bulunmamaktadır.
+
 ## 📌 Olay Özet Raporu (Executive Summary)
 
 Rhetorical Hastanesi otoparkında bulunan, üzerinde hastane logosu basılı USB bellek, kurum içi ağlardan tamamen izole edilmiş bir sanal makine (Sandbox / VM) ortamında dijital adli incelemeye tabi tutulmuştur.
