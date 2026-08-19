@@ -72,8 +72,7 @@ Söz konusu USB belleğin barındırdığı verilerin sızdırılması durumunda
 
 ## 💡 Tavsiyeler ve Önleyici Tedbirler (Remediation & Countermeasures)
 
-1. **Kurumsal ve Kişisel Veri İzolasyonu:** Kurumsal depolama alanlarında ve iş için kullanılan cihazlarda kişisel verilerin (özel fotoğraflar, tatil planları vb.) saklanması yasaklanmalı; kurumsal ve kişisel veriler kesin olarak ayrıştırılmalıdır.
-2. **USB ve Medya Güvenliği Politikası (GPO):** Kurumsal cihazlarda yetkisiz USB bellek kullanımını engellemek için Grup İlkesi (GPO) üzerinden depolama birimleri kısıtlanmalıdır.
-3. **Veri Sınıflandırılması ve Şifreleme:** Kurumsal veriler ile kişisel veriler kesinlikle ayrıştırılmalı; taşınabilir depolama cihazları donanımsal veya yazılımsal olarak (örn. BitLocker) şifrelenmelidir.
-4. **Farkındalık Eğitimleri:** Çalışanlara sokakta veya otoparkta bulunan USB belleklerin doğrudan bilgisayarlara takılmaması, derhal Güvenlik/SOC ekibine teslim edilmesi gerektiği konusunda eğitimler verilmelidir.
-5. **İzole Analiz (Sandbox) Standardı:** Bulunan tüm harici medya araçları yalnızca izole edilmiş sanal ortamlarda veya dedicated adli inceleme istasyonlarında analize tabi tutulmalıdır.
+1. **USB ve Medya Güvenliği Politikası (GPO):** Kurumsal cihazlarda yetkisiz USB bellek kullanımını engellemek için Grup İlkesi (GPO) üzerinden depolama birimleri kısıtlanmalıdır.
+2. **Veri Sınıflandırılması ve Şifreleme:** Kurumsal veriler ile kişisel veriler kesinlikle ayrıştırılmalı; taşınabilir depolama cihazları donanımsal veya yazılımsal olarak (örn. BitLocker) şifrelenmelidir.
+3. **Farkındalık Eğitimleri:** Çalışanlara sokakta veya otoparkta bulunan USB belleklerin doğrudan bilgisayarlara takılmaması, derhal Güvenlik/SOC ekibine teslim edilmesi gerektiği konusunda eğitimler verilmelidir.
+4. **İzole Analiz (Sandbox) Standardı:** Bulunan tüm harici medya araçları yalnızca izole edilmiş sanal ortamlarda veya dedicated adli inceleme istasyonlarında analize tabi tutulmalıdır.
